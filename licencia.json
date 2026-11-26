@@ -1,0 +1,8 @@
+{
+  "activa": false,
+  "precioMes": 40,
+  "moneda": "EUR",
+  "movilesPorLicencia": 20,
+  "pruebaDias": 14,
+  "pruebaMoviles": 3
+}
