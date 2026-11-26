@@ -30,12 +30,16 @@ Desde la versión 1.0.0, Synark Station se actualiza sola. Al abrirse, y cada po
 
 Si tienes una versión anterior a la 1.0.0, instala la última una vez a mano, encima de la que tengas. A partir de ahí, las siguientes llegan solas.
 
+## Suscripción
+
+A partir de enero de 2027, Synark Station funcionará con una suscripción mensual de 40 € por caja (20 móviles). Hasta entonces, el programa se puede usar sin suscripción.
+
 ## Sobre este repositorio
 
-Aquí se publican los instaladores de cada versión. También está `licencia.json`, la configuración de licencias que consulta el programa; la mantiene el equipo de Synark. El código fuente no es público.
+Aquí se publican los instaladores de cada versión. El código fuente no es público.
 
 ## Soporte
 
-Para dudas sobre el programa, la caja o tu licencia, escríbenos desde [synarksystems.com/pages/contact](https://synarksystems.com/pages/contact).
+Para dudas sobre el programa, la caja o la suscripción, escríbenos desde [synarksystems.com/pages/contact](https://synarksystems.com/pages/contact).
 
 © Synark Corporation
