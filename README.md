@@ -1,22 +1,41 @@
-# Synark Station · versiones
+# Synark Station
 
-Aquí se publican los instaladores de **Synark Station**, el programa de Windows de la caja SYNARK.
-Las apps instaladas miran este repositorio para actualizarse solas.
+Synark Station es el programa para Windows que maneja la **caja SYNARK**: veinte móviles Android reales conectados al ordenador, que se ven y se controlan desde una sola pantalla.
 
-- **Descargar:** la última versión está en [Releases](https://github.com/SynarkCorporation/synark-station-versiones/releases/latest). Se baja `Synark-Station-<versión>-setup.exe` y se instala.
-- **Actualizaciones:** la app busca una versión nueva al arrancar y cada 4 horas, la descarga sola y la instala al cerrarla.
+Lo desarrolla Synark Corporation, en España. Toda la información del producto, precios y contacto está en [synarksystems.com](https://synarksystems.com).
 
-## Licencia: `licencia.json`
+## Qué hace
 
-Es el interruptor de la licencia para **todas** las apps instaladas. Se edita aquí mismo (lápiz → «Commit changes»).
+- Muestra los veinte móviles en directo. Puedes manejar uno con el ratón y el teclado, o seleccionar varios y trabajar con todos a la vez.
+- Mini-apps: grabas lo que haces en un móvil, o lo montas paso a paso, y lo repiten los móviles que elijas. Se pueden programar a una hora y queda un historial de cada ejecución. El catálogo trae recetas listas para usar.
+- Instala apps en todos los móviles de una vez, también las que vienen en varias partes (.apks, .xapk), y ayuda a liberar espacio.
+- Da internet a los móviles que no lo tienen, por Wi-Fi o con la conexión del propio ordenador a través del cable USB. Cada móvil puede llevar su propio proxy.
+- Reparte listas de cuentas entre los móviles para usarlas en las mini-apps.
+- Para negocios locales: una ficha de Google por negocio, con el móvil y la cuenta que la llevan, el enlace para pedir reseñas a los clientes y borradores para responderlas en su idioma.
+- Vigila la batería, la temperatura, el espacio y la conexión de cada móvil, y controla el ventilador y el arranque de la caja.
 
-| Campo | Qué es |
-|---|---|
-| `activa` | `false`: licencia apagada en todas las apps. `true`: se enciende en todas (en menos de 6 horas, o al abrirlas). |
-| `precioMes` | Precio de una licencia al mes. |
-| `moneda` | `EUR`. |
-| `movilesPorLicencia` | Móviles que cubre una licencia: una caja SYNARK, 20. |
-| `pruebaDias` | Días de prueba gratis desde el día que se enciende. |
-| `pruebaMoviles` | Móviles que se pueden usar a la vez en la prueba. |
+El programa está en español, inglés, francés, italiano y alemán, con tema claro y oscuro.
 
-Ojo: el archivo tiene que seguir siendo JSON válido (comillas dobles, comas entre campos, `true`/`false` sin comillas). Si se rompe, las apps lo ignoran y siguen con lo último que leyeron.
+## Descarga e instalación
+
+La última versión está en [Releases](https://github.com/SynarkCorporation/synark-station-versiones/releases/latest). Descarga el archivo `Synark-Station-<versión>-setup.exe` y ábrelo.
+
+Necesitas Windows 10 u 11 de 64 bits.
+
+Mientras el instalador no esté firmado, Windows puede mostrar el aviso «Windows protegió su PC». Para seguir, pulsa «Más información» y después «Ejecutar de todas formas».
+
+## Actualizaciones
+
+Desde la versión 1.0.0, Synark Station se actualiza sola. Al abrirse, y cada pocas horas mientras está abierto, comprueba si hay una versión nueva. Si la hay, la descarga en segundo plano y la instala la próxima vez que cierras el programa. Tus móviles, mini-apps y ajustes se mantienen.
+
+Si tienes una versión anterior a la 1.0.0, instala la última una vez a mano, encima de la que tengas. A partir de ahí, las siguientes llegan solas.
+
+## Sobre este repositorio
+
+Aquí se publican los instaladores de cada versión. También está `licencia.json`, la configuración de licencias que consulta el programa; la mantiene el equipo de Synark. El código fuente no es público.
+
+## Soporte
+
+Para dudas sobre el programa, la caja o tu licencia, escríbenos desde [synarksystems.com/pages/contact](https://synarksystems.com/pages/contact).
+
+© Synark Corporation
