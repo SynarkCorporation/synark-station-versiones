@@ -18,7 +18,7 @@ El programa está en español, inglés, francés, italiano y alemán, con tema c
 
 ## Descarga e instalación
 
-La última versión está en [Releases](https://github.com/SynarkCorporation/synark-station-versiones/releases/latest). Descarga el archivo `Synark-Station-<versión>-setup.exe` y ábrelo.
+La forma más sencilla es el botón «Descargar para Windows» de [synarksystems.com/pages/software](https://synarksystems.com/pages/software): baja siempre la última versión. También está en [Releases](https://github.com/SynarkCorporation/synark-station-versiones/releases/latest): descarga `Synark-Station-setup.exe` y ábrelo.
 
 Necesitas Windows 10 u 11 de 64 bits.
 
